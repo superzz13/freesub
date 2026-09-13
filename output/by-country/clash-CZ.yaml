@@ -5,20 +5,16 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇨🇿 捷克 (Czech) 01 - xiaohe
-  server: 104.21.22.180
+  server: 104.17.147.22
   port: 443
   udp: true
-  type: vless
-  uuid: 33918b20-9e02-4dc6-8b30-79b2d4b2e0e6
-  tls: true
-  servername: aUto-scaLe-238B2B.inFra-coRE-1630dD.WorKerS.DeV
+  type: trojan
+  password: Telegram_healer_config
+  sni: TO6R63-KKChIGHQM2.VxZ0DDUq7tO7su0cDqF.WoRKeRs.DeV
   skip-cert-verify: false
-  client-fingerprint: chrome
   network: ws
   ws-opts:
-    path: /eyJqdW5rIjoiUjJBU3JkVlRwSWtnciIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbImJwYi55b3VzZWYuaXNlZ2Fyby5jb20iXX0
-    headers:
-      Host: aUto-scaLe-238B2B.inFra-coRE-1630dD.WorKerS.DeV
+    path: /tr/mPZ7O1CUbIBPGNPZQ2HeV?ed=2560
 proxy-groups:
 - name: PROXIES
   type: select
