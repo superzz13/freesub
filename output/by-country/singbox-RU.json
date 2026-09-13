@@ -6,12 +6,12 @@
     {
       "type": "vless",
       "tag": "🇷🇺 俄罗斯 (Russia) 01 - xiaohe",
-      "server": "172.64.155.209",
+      "server": "104.21.96.1",
       "server_port": 443,
-      "uuid": "11e9eea1-b1a9-4f02-a1a1-b24f7664b1cf",
+      "uuid": "0836463b-214f-4af6-aa85-85a56a62388e",
       "tls": {
         "enabled": true,
-        "server_name": "ancIEnt-HeaRt-60c5.dPccgIzieB.WoRKers.dEV",
+        "server_name": "D2127A49-Flat-WOoD-c4b5.Milia-AKbaRpOor.workers.Dev",
         "insecure": false,
         "utls": {
           "enabled": true,
@@ -20,9 +20,8 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/eyJqdW5rIjoiYW1sczlYWkFHOCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0",
         "headers": {
-          "Host": "ancient-heart-60c5.dpccgizieb.workers.dev"
+          "Host": "D2127A49-Flat-WOoD-c4b5.Milia-AKbaRpOor.workers.Dev"
         }
       }
     },
@@ -45,18 +44,18 @@
     {
       "type": "shadowsocks",
       "tag": "🇷🇺 俄罗斯 (Russia) 04 - xiaohe",
-      "server": "130.49.189.158",
-      "server_port": 43558,
-      "method": "chacha20-ietf-poly1305",
-      "password": "jIlQi9jGPJd7KHMx6Y4+JbaNoWSWfe2A73U4J4o0Qrs="
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇷🇺 俄罗斯 (Russia) 05 - xiaohe",
       "server": "195.133.5.102",
       "server_port": 50111,
       "method": "aes-256-gcm",
       "password": "895b4b796a357570"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇷🇺 俄罗斯 (Russia) 05 - xiaohe",
+      "server": "130.49.189.158",
+      "server_port": 43558,
+      "method": "chacha20-ietf-poly1305",
+      "password": "jIlQi9jGPJd7KHMx6Y4+JbaNoWSWfe2A73U4J4o0Qrs="
     },
     {
       "type": "hysteria2",
@@ -73,23 +72,20 @@
     {
       "type": "vless",
       "tag": "🇷🇺 俄罗斯 (Russia) 07 - xiaohe",
-      "server": "46.8.200.91",
-      "server_port": 443,
-      "uuid": "0a2dde28-70da-4863-a06f-35d007d94d35",
+      "server": "45.12.75.242",
+      "server_port": 26424,
+      "uuid": "633f424e-2b11-48da-a6b3-a849dd71456f",
       "tls": {
         "enabled": true,
-        "server_name": "cf3.rumedia-cdn.com",
-        "insecure": false,
+        "server_name": "ya.ru",
         "utls": {
           "enabled": true,
-          "fingerprint": "firefox"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/casc",
-        "headers": {
-          "Host": "cf3.rumedia-cdn.com"
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "l8AubqcxQO-HRFJy4pZL1vbLOo-eXit69s-XulSELE0",
+          "short_id": "23103e1e"
         }
       }
     },
