@@ -4,32 +4,31 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🌐 其他地区 (Other) 01 - xiaohe
-  server: 104.21.78.194
+- name: 🇹🇭 泰国 (Thailand) 01 - xiaohe
+  server: 104.18.26.90
   port: 443
   udp: true
   type: vless
-  uuid: a170c1ac-d065-4643-bbf5-d0550d36b4fd
+  uuid: 3c52e091-6714-4915-949f-2149fe69951b
   tls: true
-  servername: ger.chalghooz.com
+  servername: v2ray.simspeedup.com
   skip-cert-verify: false
-  client-fingerprint: chrome
   network: ws
   ws-opts:
-    path: /cloude
+    path: /ws
     headers:
-      Host: ger.chalghooz.com
+      Host: v2ray.simspeedup.com
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🌐 其他地区 (Other) 01 - xiaohe
+  - 🇹🇭 泰国 (Thailand) 01 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🌐 其他地区 (Other) 01 - xiaohe
+  - 🇹🇭 泰国 (Thailand) 01 - xiaohe
 rules:
 - MATCH,PROXIES
